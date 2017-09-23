@@ -1,0 +1,31 @@
+{ "name": "jsonize-loudfail",
+  "version": "0.1.0",
+  "description": "A serializer for JSON.stringify that throws in case of data loss.",
+  "keywords": [ "JSON" ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/jsonize-loudfail-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/jsonize-loudfail-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/jsonize-loudfail-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "jlf.js",
+  "scripts": { "test": "nodejs test.usage.js" },
+  "directories": { "test": "test" },
+
+  "dependencies": {},
+  "devDependencies": {
+    "equal-pmb": "^0.1.14",
+    "usnam-pmb": "^0.2.3"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
